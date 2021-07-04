@@ -14,3 +14,17 @@ yarn add @sudoo/build-utils --dev
 # Or
 npm install @sudoo/build-utils --save-dev
 ```
+
+## CLI Usage
+
+```sh
+npx build-utils clean-path <PATH>
+```
+
+## Package Usage
+
+```ts
+import { buildUtilCleanPath } from "@sudoo/build-utils";
+
+buildUtilCleanPath("Path");
+```
