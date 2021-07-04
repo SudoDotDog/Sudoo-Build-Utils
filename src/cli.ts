@@ -18,7 +18,13 @@ type CleanPathCommandOptions = {
 coco.command(Command.create('clean-path')
     .argument(Argument.create('path'))
     .then(async (args: CleanPathCommandOptions) => {
+
         const path: string = Path.resolve(args.path);
         await buildUtilCleanPath(path);
     }),
 );
+
+export const execute = async (args: string[]): Promise<void> => {
+
+    await coco.go(args);
+};
