@@ -10,7 +10,7 @@ Build Utils for JS
 ## Install
 
 ```sh
-yarn add @sudoo/build-utils
+yarn add @sudoo/build-utils --dev
 # Or
-npm install @sudoo/build-utils --save
+npm install @sudoo/build-utils --save-dev
 ```
