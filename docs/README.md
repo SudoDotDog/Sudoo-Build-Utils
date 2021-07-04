@@ -10,7 +10,7 @@ Build Utils for JS
 ## Install
 
 ```sh
-yarn add @sudoo/words-english --dev
+yarn add @sudoo/build-utils
 # Or
-npm install @sudoo/words-english --save-dev
+npm install @sudoo/build-utils --save
 ```

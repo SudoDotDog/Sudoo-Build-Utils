@@ -15,8 +15,11 @@
     "url": "https://github.com/SudoDotDog/Sudoo-Build-Utils/issues"
   },
   "homepage": "https://github.com/SudoDotDog/Sudoo-Build-Utils#readme",
+  "dependencies": {
+    "@sudoo/coco": "^1.8.5",
+    "@sudoo/io": "^1.8.0"
+  },
   "devDependencies": {
-    "@sudoo/io": "^1.8.0",
     "@sudoo/triforce": "^2.8.27"
   },
   "nyc": {
